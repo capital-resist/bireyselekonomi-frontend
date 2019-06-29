@@ -1,20 +1,47 @@
 <div class="row">
   <div class="col-md-7">
-    <h2> Liste</h2>
+  
     <table class="table table-hover">
       <tr>
-        <td>ad</td>
-        <td>maas</td>
-        <td>fatura</td>
-        <td>kira</td>
-        <td>yemek</td>
+        <td>Aylar</td>
+        <td>Ocak</td>
+        <td>Şubat</td>
+        <td>Mart</td>
+        <td>Nisan</td>
+        <td>Mayıs</td>
+        <td>Haziran</td>
+        <td>Temmuz</td>
+        <td>Ağustos</td>
+        <td>Eylül</td>
+        <td>Ekim</td>
+        <td>Kasım</td>
+        <td>Aralık</td>
+      
       </tr> 
+      <tr>
+        <td>Maaş</td>
+      </tr>
+      <tr>
+          <td>Faturalar</td>
+      </tr>
+      <tr>
+          <td>Kira</td>
+     </tr>
+     <tr>
+          <td>Yemek</td>
+      </tr>
+      <tr>
+          <td>Toplam</td>
+      </tr>
+      <tr>
+           <td>Genel Toplam</td>
+      </tr>
     
       <tr *ngFor="let item of list" >
-        <td>{{item.ad}}</td>
+        <td>{{item.aylar}}</td>
         <td>{{item.maas}}</td>
-        <td>{{item.kira}}</td>
         <td>{{item.fatura}}</td>
+        <td>{{item.kira}}</td>
         <td>{{item.yemek}}</td>
 
       </tr>

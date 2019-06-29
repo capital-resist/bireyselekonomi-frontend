@@ -1,4 +1,5 @@
 export class Details {
+    aylar: string;
     ad: string;
     maas: number;
     fatura: number;

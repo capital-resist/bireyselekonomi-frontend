@@ -9,14 +9,11 @@ export class DetailsService {
 constructor() { }
 
 getdetails() {
-  this.list = [
-    { ad: 'Gülden', maas: 2000, fatura: 200, kira: 800, yemek: 50},
-    { ad: 'Furkan', maas: 2500, fatura: 100, kira: 700, yemek: 20}
+
+  return this.list = [
+   
+    
   ];
-
-  localStorage.setItem("table",JSON.stringify(this.list));
-
-  return this.list;
 }
 
 }
